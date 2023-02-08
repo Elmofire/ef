@@ -1,0 +1,15 @@
+[package]
+name = "ef"
+version = "0.1.0"
+edition = "2023"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.0"
+clap = { version = "3.2.22", features = ["derive"] }
+is_executable = "1.0.1"
+rand = "0.8.5"
+random-string = "1.0.0"
+regex = "1.7.1"
+str = "0.1.4"
